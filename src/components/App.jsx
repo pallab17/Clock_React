@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
+  setInterval(updateTime, 1000);
   const now = new Date().toLocaleTimeString("en-GB");
 
   // console.log(now);
